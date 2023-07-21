@@ -1,0 +1,6 @@
+python.Dockerfile
+README.md
+.gitignore
+.git
+.venv
+docker-compose.example.yml
