@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   web:
-    container_name: django
+    container_name: movie_django
     build:
       context: .
       dockerfile: python.Dockerfile
@@ -19,7 +19,7 @@ services:
       - nginx
 
   nginx:
-    container_name: nginx
+    container_name: movie_nginx
     build:
       context: .
       dockerfile: nginx.Dockerfile

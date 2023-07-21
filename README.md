@@ -24,9 +24,9 @@ $ docker exec <container-name> <command>
 ```
 **NOTE**: There is a filled database file `db.sqlite3` but if you want to create a new one delete `db.sqlite3` and enter:
 ```
-$ docker exec django python manage.py makemigrations
-$ docker exec django python manage.py migrate
-$ docker exec django python manage.py createsuperuser
+$ docker exec movie_django python manage.py makemigrations
+$ docker exec movie_django python manage.py migrate
+$ docker exec movie_django python manage.py createsuperuser
 ```
 **NOTE**: Environment variables to run the project locally stored in `.env.example`. You can change `DJANGO_SECRET_KEY` variable via:
 ```
