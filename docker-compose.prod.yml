@@ -25,7 +25,7 @@ services:
       dockerfile: nginx.Dockerfile
     restart: always
     ports:
-      - '80:80'
+      - '81:80'
     volumes:
       - static:/app/static
       - media:/app/media
