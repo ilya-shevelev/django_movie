@@ -2,7 +2,7 @@
 
 ### Educational project on Django from cource ["Уроки Django 3"](https://www.youtube.com/playlist?list=PLF-NY6ldwAWrb6nQcPL21XX_-AmivFAYq).
 
-[*Try on my site*](http://movie.shevelev.site/)
+[*Try on my site*](http://movie.shevelev.site:81/)
 
 ## Technology stack:
 - Python
